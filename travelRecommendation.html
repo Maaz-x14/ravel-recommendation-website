@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelBloom</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🌍 TravelBloom</div>
+    <ul class="nav-links">
+      <li><a href="travelRecommendation.html">Home</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li><a href="contact_us.html">Contact Us</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search destinations..." />
+      <button onclick="search()">Search</button>
+      <button onclick="clearResults()">Clear</button>
+    </div>
+  </nav>
+
+  <header class="hero-image">
+    <div class="intro-text animate-fade">
+      <h1>EXPLORE DREAM DESTINATION</h1>
+      <p>Discover places and cultures that ignite your sense of wonder.</p>
+    </div>
+  </header>
+
+  <section id="results" class="results-grid animate-rise"></section>
+
+  <footer>
+    <div class="social">
+      <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="icons/youtube.png" alt="YouTube"></a>
+    </div>
+    <p>© 2025 TravelBloom. All rights reserved.</p>
+  </footer>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
